@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background : url("../Images/wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat center center;
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+
+.section1 .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.header{
+    background-color: grey;
+    width:100%;
+    height:50px;
+    position: relative;
+    float: left;
+    position: fixed;
+    
+}
+
+.header .home{
+    color:white;
+    font-size: 25px;
+    /* padding-top:15px; */
+    margin-top: 13px;
+    margin-left: 30px;
+    /* margin: auto; */
+     float: left;
+        
+}
+
+.search-container {
+    position: absolute;
+    top: 50%; 
+    transform: translate(0,-50%); 
+    left: 100px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0,-50%);   
+    color: #888;
+    font-size: 19px;
+    /* float:left; */
+}
+
+.search-input {
+    padding: 5px 10px 5px 35px;
+    font-size: 19px;
+    border: 0.5px solid #ccc;
+    border-radius: 15px;
+    width: 280px;
+    /* float:left; */
+}
+
+.header-links{
+   float: right;
+   margin-top:15px;
+   margin-right: 40px;
+   font-size: 18px;
+
+}
+
+.header-links ul {
+    list-style-type: none;
+}
+
+.header-links ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header-links ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+}
+
+.agency-section1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}   
+
+.agency-section1 h1{
+    font-size: 65px;
+    color:white;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+   
+}
+
+.agency-section1 p{
+    color:white;
+    /* text-transform: capitalize; */
+    letter-spacing: 3px;
+    opacity:0.4;
+}
+
+.agency-section1 button{
+    padding:9px 12px 9px 12px;
+    border:none;
+    border-radius: 7px;
+    margin-left:10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.agency-section1 .btn1{
+    background-color: rgb(48, 48, 141);
+}
+
+
+
+.agency-section1 .btn1:hover{
+    background-color: blue;
+    cursor:pointer;
+}
+
+.agency-section1 .btn2:hover{
+    background-color: rgba(223, 217, 217, 0.712);
+    cursor:pointer;
+}
+/* ------------------------------------------------------------------------------------------ */
+.section2-welcome .section2-welcome-heading{
+    text-align: center;
+    margin-top: 70px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.section2-welcome .section2-welcome-line{
+    width:100px;
+    height:3px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.section2-containers{
+    width:100%;
+    height:500px;
+    /* background-color: #888; */
+    margin-top: 70px;
+   
+}
+
+.containers{
+    width:320px;
+    height:220px;
+    border:1px black solid;
+    float: left;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.section2-container3{
+    margin-left:120px
+}
+
+.section2-container2{
+    margin-left:105px 
+}
+
+.section2-container1{
+    margin-left: 15px;
+}
+
+.section2-container4{
+    margin-left: 15px;
+}
+
+
+.section2-container5{
+    margin-left:105px 
+}
+
+.section2-container6{
+    margin-left:120px
+}
+
+.section2-containers h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    padding-top:50px
+}
+
+.section2-containers p{
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    padding-top:22px;
+    opacity:0.7
+}
+
+.section2-containers a{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left:120px;
+    color:cadetblue
+}
+
+
+
+
+
+
+
+
+
+
